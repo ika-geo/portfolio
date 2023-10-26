@@ -9,7 +9,6 @@ interface PortfolioItemInterface{
     MERN?: boolean
 }
 
-
 const portfolioItems: PortfolioItemInterface[] = [
 
     {

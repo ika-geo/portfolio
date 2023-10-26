@@ -10,7 +10,6 @@ interface PortfolioItemInterface{
 }
 
 const portfolioItems: PortfolioItemInterface[] = [
-
     {
         img: 'portfolioIMG (11).png',
         url: 'https://posts-client-navy.vercel.app/',

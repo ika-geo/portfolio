@@ -35,6 +35,7 @@
 }
 .cardItem .onHover .technologies .technologies__items .technologies__item {
   margin-right: 15px;
+  line-height: 1.5;
 }
 .cardItem .onHover a {
   width: fit-content;

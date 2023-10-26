@@ -16,7 +16,7 @@ const portfolioItems: PortfolioItemInterface[] = [
         img: 'portfolioIMG (11).png',
         url: 'https://posts-client-navy.vercel.app/',
         github: 'https://github.com/ika-geo/posts',
-        technologies: ['React, Node, Express, Mongo, SCSS, Typescript'],
+        technologies: ['React, Node, Express, Mongo, SCSS, Javascript'],
         MERN: true
     },
     {

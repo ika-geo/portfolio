@@ -82,7 +82,6 @@ const portfolioItems: PortfolioItemInterface[] = [
     }
 ]
 
-
 const Portfolio = () => {
     return (
         <div className="portfolio block" id='Projects'>

@@ -4,15 +4,15 @@ import AboutText from "./AboutText";
 
 const technologiesItem: { technology: string, color: string }[] = [
     {
-        technology: 'html',
+        technology: 'HTML',
         color: "#dd4b25"
     },
     {
-        technology: 'css',
+        technology: 'CSS',
         color: "#2EA7D9FF"
     },
     {
-        technology: 'scss',
+        technology: 'SCSS',
         color: "#c96195"
     },
     {
@@ -20,17 +20,30 @@ const technologiesItem: { technology: string, color: string }[] = [
         color: "#efd81d"
     },
     {
-        technology: 'typescript',
+        technology: 'Typescript',
         color: "#2f74c0"
     },
     {
-        technology: 'react',
+        technology: 'React',
         color: "#00d1f7"
     },
     {
-        technology: 'git',
+        technology: 'Git',
         color: "#e04c31"
     },
+    {
+        technology: 'Node.js',
+        color: "#026b00"
+    },
+    {
+        technology: 'Express',
+        color: "#fcfcfc"
+    },
+    {
+        technology: 'MongoDB',
+        color: "#60a853"
+    },
+
 ]
 
 const AboutTop = () => {

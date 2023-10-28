@@ -1,7 +1,7 @@
 import Ball from "../components/ball/Ball";
 
 
-const educationItems = ["Self-taught", "Official documentation", "Professional courses", "w3school", ]
+const educationItems = ["Self-taught", "Official documentation", "Professional courses", "Industry tutorials and blogs", ]
 
 
 const Education = () => {

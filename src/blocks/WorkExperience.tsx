@@ -18,7 +18,7 @@ const workItems: WorkItem[] = [
     },
 
     {
-        years: [2017, 'present'],
+        years: [2017, 2024],
         duties: 'Search for descriptions and pictures of products on the Internet, create descriptions in three languages (Georgian, Russian, English), edit pictures, add to the site.',
         position: 'Digital Content Manager',
         companyName: "Ecommerce domino",

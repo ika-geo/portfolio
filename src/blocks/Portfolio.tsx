@@ -1,4 +1,5 @@
 import PortfolioItem from "../components/portfolioItem/PortfolioItem";
+import Ball from "../components/ball/Ball";
 
 interface PortfolioItemInterface{
     img: string,
@@ -87,6 +88,17 @@ const Portfolio = () => {
         <div className="portfolio block" id='Projects'>
             <div className="wrapper">
                 <div className="portfolio__block">
+                    <Ball
+                        top={50}
+                        left={0}
+                        color="aqua"
+                    />
+
+                    <Ball
+                        top={50}
+                        right={0}
+                        color="aqua"
+                    />
                     <h1 className="title center">PORTFOLIO</h1>
                     <div className="portfolio__items grid4">
                         {portfolioItems.map(item=>

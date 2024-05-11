@@ -15,11 +15,9 @@ const Education = () => {
 
            <Ball
                top={70}
-               bottom={0}
                right={0}
                color="#0072ff"
             />
-
 
             <div className="wrapper">
                 <div className="education__block">

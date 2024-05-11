@@ -14,7 +14,7 @@ const BGBallHandle = ({ball, handleBall, className}:{ball:boolean, handleBall:()
 
             <label
                 style={{cursor:"pointer"}}
-                htmlFor="Ball">{ball?"Hide background":"Show background"}
+                htmlFor="Ball">{`Turn ${ball?'off':'on'} the light`}
             </label>
         </div>
     );

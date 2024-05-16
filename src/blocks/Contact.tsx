@@ -9,6 +9,12 @@ interface ContactItem{
 
 const contactItems: ContactItem[] = [
     {
+        img: 'linkedin.png',
+        text: 'Linkedin',
+        href: 'https://www.linkedin.com/in/irakli-gelenava/',
+        target: true
+    },
+    {
         img: 'phone.png',
         text: '+995-599-87-32-31',
         href: 'tel:+995599873231',

@@ -20,16 +20,12 @@ const technologiesItem: { technology: string, color: string }[] = [
         color: "#efd81d"
     },
     {
-        technology: 'Typescript',
+        technology: 'TypeScript',
         color: "#2f74c0"
     },
     {
         technology: 'React',
         color: "#00d1f7"
-    },
-    {
-        technology: 'Git',
-        color: "#e04c31"
     },
     {
         technology: 'Node.js',
@@ -43,7 +39,10 @@ const technologiesItem: { technology: string, color: string }[] = [
         technology: 'MongoDB',
         color: "#60a853"
     },
-
+    {
+        technology: 'Git',
+        color: "#e04c31"
+    }
 ]
 
 const AboutTop = () => {

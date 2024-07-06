@@ -10,7 +10,7 @@ interface WorkItem{
 
 const workItems: WorkItem[] = [
     {
-        years: [2023, 'present'],
+        years: [2023, 2024],
         duties: 'Engaged in full-stack development, where I manage CRUD operations, create features, components, and handle debugging for seamless user interactions. I work within the MERN stack, utilizing Redux Toolkit, Tailwind, TypeScript, and third-party npm libraries. Actively collaborating with developers for code improvement and quality enhancement. I contribute to new features, ensuring positive user experiences.',
         position: 'Full stack developer (MERN)',
         companyName: "Codeunity",

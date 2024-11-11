@@ -10,6 +10,13 @@ interface WorkItem{
 
 const workItems: WorkItem[] = [
     {
+        years: [2024, 2024],
+        duties: 'During the Itransition trainee program, I focused extensively on building full-stack applications with the MERN stack, creating dynamic and interactive user interfaces with React and structuring backend logic and APIs with Node.js and Express. My work included designing and managing relational data structures in PostgreSQL, where I implemented optimized queries and ensured data integrity throughout the development process. I also integrated WebSockets to enable real-time features, such as live notifications and collaborative updates, which enhanced the interactivity and responsiveness of the applications. This experience deepened my understanding of practical, scalable solutions in full-stack development and reinforced my skills in deploying web applications effectively.',
+        position: 'Commercial Software Development Trainee',
+        companyName: "Itransition ",
+        companyLink: "https://www.itransition.com/"
+    },
+    {
         years: [2023, 2024],
         duties: 'Engaged in full-stack development, where I manage CRUD operations, create features, components, and handle debugging for seamless user interactions. I work within the MERN stack, utilizing Redux Toolkit, Tailwind, TypeScript, and third-party npm libraries. Actively collaborating with developers for code improvement and quality enhancement. I contribute to new features, ensuring positive user experiences.',
         position: 'Full stack developer (MERN)',

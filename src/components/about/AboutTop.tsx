@@ -16,6 +16,10 @@ const technologiesItem: { technology: string, color: string }[] = [
         color: "#c96195"
     },
     {
+        technology: 'Tailwind CSS',
+        color: "#36b7f0"
+    },
+    {
         technology: 'JavaScript',
         color: "#efd81d"
     },
@@ -32,12 +36,24 @@ const technologiesItem: { technology: string, color: string }[] = [
         color: "#026b00"
     },
     {
+        technology: 'PHP?',
+        color: "#7377ad"
+    },
+    {
         technology: 'Express',
         color: "#fcfcfc"
     },
     {
         technology: 'MongoDB',
         color: "#60a853"
+    },
+    {
+        technology: 'PostgreSQL',
+        color: "#2f6792"
+    },
+    {
+        technology: 'MySQL',
+        color: "#e48e00"
     },
     {
         technology: 'Git',

@@ -5,17 +5,14 @@ interface PortfolioItemInterface{
     url: string,
     github: string,
     technologies: string[],
-    React: boolean|undefined,
-    MERN: boolean|undefined,
+    stack?: string
 }
 
 const PortfolioItem = (props:PortfolioItemInterface) => {
     return (
         <div className="cardItem">
             <img src={require('../../assets/img/portfolio/'+props.img)} alt=""/>
-            {props.React&&<div className='react'>React</div>}
-            {props.MERN&&<div className='mern'>MERN</div>}
-
+            <div className='mern'>{props.stack}</div>
             <div className="onHover">
 
                 <ul className="technologies">

@@ -6,80 +6,108 @@ interface PortfolioItemInterface{
     url: string,
     github: string,
     technologies: string[],
-    React?: boolean,
-    MERN?: boolean
+    stack: string
 }
 
 const portfolioItems: PortfolioItemInterface[] = [
     {
+        img: 'portfolioIMG (14).png',
+        url: 'https://itransition-project-6nth.onrender.com',
+        github: 'https://github.com/ika-geo/itransition_project',
+        technologies: ['React', 'Node', 'Express', 'PostgreSQL', 'Tailwind', 'WebSocket', 'Salesforce integration', 'Jira integration'],
+        stack: 'PERN'
+    },
+    {
+        img: 'portfolioIMG (13).png',
+        url: 'https://itransition-task6-client.onrender.com/',
+        github: 'https://github.com/ika-geo/itransition__task6',
+        technologies: ['React', 'Node', 'Express', 'MongoDB', 'Tailwind', 'WebSocket'],
+        stack: 'MERN'
+    },
+    {
+        img: 'portfolioIMG (12).png',
+        url: 'http://ikageo.atwebpages.com/front',
+        github: 'https://github.com/ika-geo/scandiweb',
+        technologies: ['React-Class', 'PHP', 'GraphQL', 'MySQL', 'Tailwind'],
+        stack: 'PHP+REACT'
+    },
+    {
         img: 'portfolioIMG (11).png',
         url: 'https://posts-client-navy.vercel.app/',
         github: 'https://github.com/ika-geo/posts',
-        technologies: ['React, Node, Express, MongoDB, SCSS, Javascript'],
-        MERN: true
+        technologies: ['React', 'Node', 'Express', 'MongoDB', 'SCSS', 'Javascript'],
+        stack: 'MERN'
     },
     {
         img: 'portfolioIMG (1).png',
         url: 'https://plants-dev.vercel.app/',
         github:'https://github.com/ika-geo/plants_dev',
         technologies: ['React', 'SCSS', 'Typescript'],
-        React: true
+        stack: 'React'
     },
     {
         img: 'portfolioIMG (2).png',
         url: 'https://travel-dev.vercel.app/',
         github: 'https://github.com/ika-geo/travel_dev',
         technologies: ['React', 'SCSS', 'Typescript'],
-        React: true
+        stack: 'React'
     },
     {
         img: 'portfolioIMG (3).png',
         url: 'https://online-store-dev.vercel.app/',
         github:'https://github.com/ika-geo/online-store_dev',
         technologies: ['React', 'SCSS', 'JavaScript'],
-        React: true
+        stack: 'React'
     },
     {
         img: 'portfolioIMG (4).png',
         url: 'https://ika-geo.github.io/projectX/',
         github: 'https://github.com/ika-geo/projectX',
-        technologies: ['HTML', 'CSS', 'JavaScript']
+        technologies: ['HTML', 'CSS', 'JavaScript'],
+        stack: 'HTML/CSS/JS'
+
     },
     {
         img: 'portfolioIMG (5).png',
         url: 'https://ika-geo.github.io/myProject/',
         github: 'https://github.com/ika-geo/myProject',
-        technologies: ['HTML', 'CSS', 'JavaScript']
+        technologies: ['HTML', 'CSS', 'JavaScript'],
+        stack: 'HTML/CSS/JS'
     },
     {
         img: 'portfolioIMG (6).png',
         url: 'https://ika-geo.github.io/brunch/',
         github: 'https://github.com/ika-geo/brunch',
-        technologies: ['HTML', 'CSS', 'JavaScript']
+        technologies: ['HTML', 'CSS', 'JavaScript'],
+        stack: 'HTML/CSS/JS'
     },
     {
         img: 'portfolioIMG (7).png',
         url: 'https://ika-geo.github.io/sportStore/',
         github: 'https://github.com/ika-geo/sportStore',
-        technologies: ['HTML', 'CSS', 'JavaScript']
+        technologies: ['HTML', 'CSS', 'JavaScript'],
+        stack: 'HTML/CSS/JS'
     },
     {
         img: 'portfolioIMG (8).png',
         url: 'https://ika-geo.github.io/photography/',
         github: 'https://github.com/ika-geo/photography',
         technologies: ['HTML', 'CSS', 'JavaScript'],
+        stack: 'HTML/CSS/JS'
     },
     {
         img: 'portfolioIMG (9).png',
         url: 'https://ika-geo.github.io/yoga/',
         github: 'https://github.com/ika-geo/yoga',
-        technologies: ['HTML', 'CSS', 'JavaScript']
+        technologies: ['HTML', 'CSS', 'JavaScript'],
+        stack: 'HTML/CSS/JS'
     },
     {
         img: 'portfolioIMG (10).png',
         url: 'https://ika-geo.github.io/pizza/',
         github: 'https://github.com/ika-geo/pizza',
-        technologies: ['HTML', 'CSS', 'JavaScript']
+        technologies: ['HTML', 'CSS', 'JavaScript'],
+        stack: 'HTML/CSS/JS'
     }
 ]
 
@@ -107,8 +135,7 @@ const Portfolio = () => {
                                 url={item.url}
                                 github={item.github}
                                 technologies={item.technologies}
-                                React={item.React}
-                                MERN={item.MERN}
+                                stack={item.stack}
                             />
                         )}
                     </div>

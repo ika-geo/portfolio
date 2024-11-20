@@ -5,7 +5,7 @@ const AboutText = () => {
 
             <ul>
                 <li>
-                    <b className='coloredText2'>Experience: </b>My experience as a MERN Developer has equipped me with the skills to craft end-to-end web applications that deliver on both the front-end and back-end. With a solid foundation in MongoDB, Express.js, React, and Node.js, I have successfully implemented RESTful APIs, managed data storage, and ensured the cross-browser and cross-platform compatibility of web projects.
+                    <b className='coloredText2'>Experience: </b>My experience as a Web Developer has equipped me with the skills to craft end-to-end web applications that deliver on both the front-end and back-end. With a solid foundation in MongoDB, Express.js, React, and Node.js, I have successfully implemented RESTful APIs, managed data storage, and ensured the cross-browser and cross-platform compatibility of web projects.
                 </li>
 
                 <li> <b className='coloredText2'>Skills: </b>Proficiency in the MERN stack, with a good understanding of MongoDB, Express.js, React, Node.js and relevant libraries and technologies. Expertise in creating responsive user interfaces and implementing user-friendly features. Seasoned in state management, utilizing Redux Toolkit to enhance the predictability and reliability of complex applications. Implementing modern npm libraries for enhanced functionality (Axios, mongoose, JWT, validator, multer). Committed to continuous learning, refining my JavaScript skills, and staying updated with the latest web development trends. Adept problem solver and a fast learner.

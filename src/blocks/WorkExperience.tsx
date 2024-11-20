@@ -1,8 +1,8 @@
 import Ball from "../components/ball/Ball";
 
-interface WorkItem{
+interface WorkItem {
     years: [string, string] | [string, 'present'],
-    duties: string,
+    duties: string[],
     position: string,
     companyName: string,
     companyLink: string
@@ -11,28 +11,52 @@ interface WorkItem{
 const workItems: WorkItem[] = [
     {
         years: ['2024/09', '2024/11'],
-        duties: 'During the Itransition trainee program, I focused extensively on building full-stack applications with the MERN/PERN stack, creating dynamic and interactive user interfaces with React and structuring backend logic and APIs with Node.js and Express. My work included designing and managing relational data structures in PostgreSQL, where I implemented optimized queries and ensured data integrity throughout the development process. I also integrated WebSockets to enable real-time features, such as live notifications and collaborative updates, which enhanced the interactivity and responsiveness of the applications. This experience deepened my understanding of practical, scalable solutions in full-stack development and reinforced my skills in deploying web applications effectively.',
+        duties: [
+            "Participated in the Itransition trainee program, focusing on full-stack application development with MERN/PERN stacks.",
+            "Built dynamic user interfaces with React and implemented backend logic using Node.js and Express.js.",
+            "Designed and maintained relational database structures in PostgreSQL, ensuring data integrity through optimized queries.",
+            "Integrated WebSockets to deliver real-time features like live notifications and collaborative tools.",
+            "Learned and applied scalable practices to deploy web applications efficiently.",
+            "Gained hands-on experience in bridging theoretical knowledge with practical application."
+        ],
         position: 'Commercial Software Development Trainee',
         companyName: "Itransition ",
         companyLink: "https://www.itransition.com/"
     },
     {
         years: ['2023/11', '2024/06'],
-        duties: 'Engaged in full-stack development, where I manage CRUD operations, create features, components, and handle debugging for seamless user interactions. I work within the MERN stack, utilizing Redux Toolkit, Tailwind, TypeScript, and third-party npm libraries. Actively collaborating with developers for code improvement and quality enhancement. I contribute to new features, ensuring positive user experiences.',
+        duties: [
+            "Designed and developed robust, scalable features using the MERN stack (MongoDB, Express.js, React.js, Node.js).",
+            "Implemented efficient CRUD operations to manage data seamlessly across the stack.",
+            "Utilized Redux Toolkit, Tailwind CSS, TypeScript, and third-party npm libraries for enhanced development workflows.",
+            "Debugged and optimized code for smooth user interactions and improved performance.",
+            "Collaborated with developers to enhance code quality through peer reviews and discussions.",
+            "Focused on delivering user-centric features, ensuring positive and intuitive user experiences."
+        ],
         position: 'Full stack developer (MERN)',
         companyName: "Codeunity",
         companyLink: "https://www.codeunity.in/"
     },
     {
         years: ['2017/03', '2024/05'],
-        duties: 'Search for descriptions and pictures of products on the Internet, create descriptions in three languages (Georgian, Russian, English), edit pictures, add to the site.',
+        duties: [
+            "Researched product descriptions and images online, adapting content for diverse audiences.",
+            "Wrote and translated product descriptions in three languages: Georgian, Russian, and English.",
+            "Enhanced product images using photo editing tools for professional presentation.",
+            "Managed content uploads, maintaining consistency across multiple language versions.",
+        ],
         position: 'Digital Content Manager',
         companyName: "Ecommerce domino",
         companyLink: "https://www.domino.com.ge/en/"
     },
     {
         years: ['2014/12', '2016/05'],
-        duties: 'Search for descriptions and pictures of products on the Internet, create descriptions, edit pictures, add to the site.',
+        duties: [
+            "Researched product descriptions and images online.",
+            "Created compelling product descriptions tailored to customer needs.",
+            "Edited and optimized images for web use.",
+            "Uploaded and organized content on the website, ensuring accuracy and aesthetic appeal."
+        ],
         position: 'Digital Content Manager',
         companyName: "Ecommerce be.ge",
         companyLink: "https://be.ge/en",
@@ -62,9 +86,14 @@ const WorkExperience = () => {
                                     className={item.years[1] === 'present' ? 'coloredText2' : ''}>{item.years[1]}</span>
                                 </h2>
                             </div>
-                            <p className="duties text">{item.duties}</p>
+                            <ul className='duties'>
+                                {item.duties.map(duty => (
+                                    <li key={duty} style={{listStyleType: 'disc', listStylePosition: 'inside'}}
+                                        className="text">{duty}</li>
+                                ))}
+                            </ul>
                             <div className="position">
-                            <h2 className="position__item subTitle coloredText1">{item.position}</h2>
+                                <h2 className="position__item subTitle coloredText1">{item.position}</h2>
                                 <a className='position__company coloredText2' target='_blank'
                                    href={item.companyLink}>{item.companyName}</a>
                             </div>

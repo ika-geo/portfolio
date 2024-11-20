@@ -60,7 +60,7 @@ const Contact = () => {
             <h2 className='subtitle'>Contact</h2>
             <ul className='contactItems grid2'>
                 {contactItems.map(item =>
-                    <li className='contact__item flex'>
+                    <li key={item.text} className='contact__item flex'>
                         <img src={require('../assets/img/contact/' + item.img)} alt={item.img}/>
                         <a className='text' target={item.target?'_blank':'_self'} href={item.href}>{item.text}</a>
                     </li>

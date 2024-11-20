@@ -61,7 +61,7 @@ const technologiesItem: { technology: string, color: string }[] = [
     }
 ]
 
-const AboutTop = () => {
+const AboutMain = () => {
     return (
             <>
                 <div className="about__strengths">
@@ -87,4 +87,4 @@ const AboutTop = () => {
     );
 };
 
-export default AboutTop;
+export default AboutMain;

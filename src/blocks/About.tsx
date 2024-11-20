@@ -1,6 +1,6 @@
 import Ball from "../components/ball/Ball";
-import AboutTop from "../components/about/AboutTop";
-import AboutBottom from "../components/about/AboutBottom";
+import AboutMain from "../components/about/AboutMain";
+import LanguageContact from "../components/about/LanguageContact";
 
 
 const About = () => {
@@ -21,11 +21,11 @@ const About = () => {
                     <h1 className="title center about__Title">ABOUT ME</h1>
 
                     <div className="about_top grid2">
-                        <AboutTop/>
+                        <AboutMain/>
                     </div>
 
 
-                    <AboutBottom/>
+                    <LanguageContact/>
 
                 </div>
             </div>

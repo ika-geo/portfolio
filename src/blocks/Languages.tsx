@@ -14,7 +14,7 @@ const Languages = () => {
                 <div className="languages__block">
 
                     {languages.map(item=>
-                        <div className={item.lang}>
+                        <div key={item.lang} className={item.lang}>
                             <p className="text">{item.lang}</p>
                             <div className={`languageBar ${item.lang}__bar`} title={item.step}>
                             </div>

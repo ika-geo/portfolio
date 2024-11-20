@@ -8,11 +8,11 @@ const SmokeEffect = ({arr, height}:{arr:string[], height:number}) => {
             <div className="circleBlock">
                 <div className="circle" style={{height:`${(height*44)+250}px`}}>
                 </div>
-                <p className="circleText">
+                <div className="circleText">
                     {arr.map(item=>
-                        <p>{item}</p>
+                        <p key={item}>{item}</p>
                     )}
-                </p>
+                </div>
             </div>
 
             <svg>

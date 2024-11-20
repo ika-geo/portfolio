@@ -24,7 +24,7 @@ const Education = () => {
                     <h1 className="title center">EDUCATION</h1>
                     <div className="education__items grid4">
                         {educationItems.map(item=>
-                            <div className='subTitle'>{item}</div>
+                            <div key={item} className='subTitle'>{item}</div>
                         )}
                     </div>
                 </div>

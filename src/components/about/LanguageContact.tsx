@@ -2,7 +2,7 @@ import Languages from "../../blocks/Languages";
 import Contact from "../../blocks/Contact";
 
 
-const AboutBottom = () => {
+const LanguageContact = () => {
     return (
         <div className='about_bottom grid2'>
             <Languages/>
@@ -11,4 +11,4 @@ const AboutBottom = () => {
     );
 };
 
-export default AboutBottom;
+export default LanguageContact;

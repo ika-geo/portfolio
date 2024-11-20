@@ -1,5 +1,6 @@
 import PortfolioItem from "../components/portfolioItem/PortfolioItem";
 import Ball from "../components/ball/Ball";
+import React, {Fragment} from "react";
 
 interface PortfolioItemInterface{
     img: string,
@@ -130,13 +131,15 @@ const Portfolio = () => {
                     <h1 className="title center">PORTFOLIO</h1>
                     <div className="portfolio__items grid4">
                         {portfolioItems.map(item=>
-                            <PortfolioItem
-                                img={item.img}
-                                url={item.url}
-                                github={item.github}
-                                technologies={item.technologies}
-                                stack={item.stack}
-                            />
+                            <Fragment key={item.github}>
+                                <PortfolioItem
+                                    img={item.img}
+                                    url={item.url}
+                                    github={item.github}
+                                    technologies={item.technologies}
+                                    stack={item.stack}
+                                />
+                            </Fragment>
                         )}
                     </div>
                 </div>

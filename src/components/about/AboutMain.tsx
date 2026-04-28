@@ -36,7 +36,7 @@ const technologiesItem: { technology: string, color: string }[] = [
         color: "#026b00"
     },
     {
-        technology: 'PHP?',
+        technology: 'PHP',
         color: "#7377ad"
     },
     {

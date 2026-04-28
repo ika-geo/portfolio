@@ -1,7 +1,7 @@
 const languages:{lang:string, step:string}[] = [
     {lang:"english", step:"advanced"},
     {lang:"russian", step:"fluent"},
-    {lang:"georgian", step:"native"},
+    {lang:"georgian", step:"fluent"},
 ]
 
 const Languages = () => {

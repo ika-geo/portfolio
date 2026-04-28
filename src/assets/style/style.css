@@ -314,10 +314,10 @@ li {
   width: 0;
 }
 .container .about .about_bottom .languages .languageBar.english__bar:after {
-  width: 70%;
+  width: 85%;
 }
 .container .about .about_bottom .languages .languageBar.russian__bar:after {
-  width: 85%;
+  width: 100%;
 }
 .container .about .about_bottom .languages .languageBar.georgian__bar:after {
   width: 100%;

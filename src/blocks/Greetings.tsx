@@ -19,7 +19,7 @@ const Greetings = () => {
                         <h1 className="coloredText2 title">Hello,</h1>
                         <h1 className="title">I Am</h1>
                         <p className="coloredText1 title">
-                            <Typewriter textArray={["Ika", "MERN Developer", "Full stack developer"]}/>
+                            <Typewriter textArray={["Ika", "Technical Support", "Integration Engineer"]}/>
                         </p>
 
                     </div>

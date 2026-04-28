@@ -12,38 +12,55 @@ const workItems: WorkItem[] = [
     {
         years: ['2024/09', '2024/11'],
         duties: [
-            "Participated in the Itransition trainee program, focusing on full-stack application development with MERN/PERN stacks.",
-            "Built dynamic user interfaces with React and implemented backend logic using Node.js and Express.js.",
-            "Designed and maintained relational database structures in PostgreSQL, ensuring data integrity through optimized queries.",
-            "Integrated WebSockets to deliver real-time features like live notifications and collaborative tools.",
-            "Learned and applied scalable practices to deploy web applications efficiently.",
-            "Gained hands-on experience in bridging theoretical knowledge with practical application."
+            "Managed 100+ daily high-intensity customer calls, resolving service-related issues and technical inquiries",
+            "Bug Reporting: Identified platform inconsistencies and provided detailed technical reports to the dev team, improving overall system stability",
+            "Mastered CRM systems and internal data tools to track user interactions and optimize resolution workflows"
+        ],
+        position: 'Sales & Technical Support Specialist',
+        companyName: "Topqidva ",
+        companyLink: "https://topqidva.store/"
+    },
+
+
+    {
+        years: ['2024/09', '2024/11'],
+        duties: [
+            "API integrations: Successfully integrated Salesforce and Jira services into internal projects, automating ticket creation and lead management via REST APIs",
+            "Backend & DB: Designed and optimized PostgreSQL schemas; performed direct database troubleshooting using SQL queries via phpMyAdmin and command-line tools",
+            "Technical testing: Managed API environments in Insomnia, grouping requests and using variables to streamline cross-service testing and debugging",
+            "Built WebSocket features for low-latency, interactive components"
         ],
         position: 'Commercial Software Development Trainee',
         companyName: "Itransition ",
         companyLink: "https://www.itransition.com/"
     },
     {
+        years: ['2024/07', '2024/08'],
+        duties: [
+            "API Management: Integrated GraphQL APIs with React and PHP backends, troubleshooting data-fetching errors and schema mismatches",
+            "Quality Assurance: Collaborated with the QA department to debug and fix production-level issues following MVC and SOLID principles"
+        ],
+        position: 'Full-Stack Developer Trainee',
+        companyName: "Scandiweb ",
+        companyLink: "https://scandiweb.com/"
+    },
+    {
         years: ['2023/11', '2024/06'],
         duties: [
-            "Designed and developed robust, scalable features using the MERN stack (MongoDB, Express.js, React.js, Node.js).",
-            "Implemented efficient CRUD operations to manage data seamlessly across the stack.",
-            "Utilized Redux Toolkit, Tailwind CSS, TypeScript, and third-party npm libraries for enhanced development workflows.",
-            "Debugged and optimized code for smooth user interactions and improved performance.",
-            "Collaborated with developers to enhance code quality through peer reviews and discussions.",
-            "Focused on delivering user-centric features, ensuring positive and intuitive user experiences."
+            "End-to-End Development: Developed and maintained MERN stack features (MongoDB, Express, React, Node.js), focusing on API reliability and efficient CRUD logic",
+            "Deep Debugging: Performed detailed analysis of server-side logs and browser network requests to identify and resolve complex bugs at the intersection of frontend and backend",
+            "Modern Tooling: Leveraged TypeScript and Redux Toolkit to build scalable, type-safe code, reducing integration errors with third-party libraries and services",
+            "Performance Optimization: Optimized client-server interactions to ensure smooth UI performance and fast system response times in a fast-paced startup environment"
         ],
-        position: 'Full stack developer (MERN)',
+        position: 'Full-Stack Developer, Startup',
         companyName: "Codeunity",
         companyLink: "https://www.codeunity.in/"
     },
     {
-        years: ['2017/03', '2024/05'],
+        years: ['2017/03', '2024/04'],
         duties: [
-            "Researched product descriptions and images online, adapting content for diverse audiences.",
-            "Wrote and translated product descriptions in three languages: Georgian, Russian, and English.",
-            "Enhanced product images using photo editing tools for professional presentation.",
-            "Managed content uploads, maintaining consistency across multiple language versions.",
+            "Managed technical content for 10,000+ products, overseeing multilingual database synchronization",
+            "Technical filtering: Acted as the first line of defense against website malfunctions; analyzed root causes of content-rendering issues and escalated technical requirements to developers"
         ],
         position: 'Digital Content Manager',
         companyName: "Ecommerce domino",
@@ -52,10 +69,8 @@ const workItems: WorkItem[] = [
     {
         years: ['2014/12', '2016/05'],
         duties: [
-            "Researched product descriptions and images online.",
-            "Created compelling product descriptions tailored to customer needs.",
-            "Edited and optimized images for web use.",
-            "Uploaded and organized content on the website, ensuring accuracy and aesthetic appeal."
+            "Maintained website accuracy and visual presentation for a large-scale e-commerce platform",
+            "Conducted basic troubleshooting of content upload errors and ensured data consistency across the site"
         ],
         position: 'Digital Content Manager',
         companyName: "Ecommerce be.ge",
